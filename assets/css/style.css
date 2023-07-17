@@ -1,0 +1,1022 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+.container hr {
+  margin-inline: -153px;
+  border: 0.5px solid lightgrey;
+}
+.container .head-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 30px auto;
+}
+.container .head-bar p {
+  font-family: "Lobster", cursive;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.container .head-bar p i {
+  color: #ff7426;
+  font-size: 4px;
+  margin-left: 1px;
+}
+.container .head-bar a {
+  color: black;
+}
+.container .social-bar {
+  display: flex;
+  width: 90px;
+  justify-content: space-between;
+  font-size: 18px;
+}
+.container .social-bar a {
+  color: black;
+}
+.container nav ul {
+  display: flex;
+  width: 505px;
+  justify-content: space-between;
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.container nav ul li a {
+  color: black;
+}
+.container .flex-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container .flex-container .slider {
+  margin-block: 40px;
+  width: 50%;
+  background-color: #E7FAFE;
+  border-radius: 30px 0px 0px 30px;
+  padding-left: 40px;
+}
+.container .flex-container .slider .left-content {
+  display: flex;
+  flex-direction: column;
+  height: 550px;
+  justify-content: space-between;
+}
+.container .flex-container .slider .left-content .combination {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 370px;
+}
+.container .flex-container .slider .left-content .hot-recipes p {
+  background: #fff;
+  width: 130px;
+  border-radius: 20px;
+  font-family: "Inter";
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  font-weight: 600;
+}
+.container .flex-container .slider .left-content .bold-text span {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+.container .flex-container .slider .left-content .bold-text h1 {
+  font-family: Inter;
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 77px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+.container .flex-container .slider .time {
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+}
+.container .flex-container .slider .time p {
+  display: flex;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  background-color: #fff;
+  width: 120px;
+  height: 30px;
+  border-radius: 20px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.container .flex-container .slider .go-recipes {
+  padding-bottom: 50px;
+}
+.container .flex-container .slider .go-recipes .man-about {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+}
+.container .flex-container .slider .go-recipes .man {
+  display: flex;
+}
+.container .flex-container .slider .go-recipes .man .man-name {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+  margin-left: 10px;
+}
+.container .flex-container .slider .go-recipes .man .man-name p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.container .flex-container .slider .go-recipes .man .man-name span {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+.container .flex-container .slider .go-recipes .view {
+  display: flex;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  width: 170px;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.container .flex-container .slider .go-recipes .view p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.container .flex-container .slider .go-recipes .view i {
+  margin-left: 8px;
+}
+.container .flex-container .right-content {
+  position: relative;
+}
+.container .flex-container .right-content .like-hand {
+  position: absolute;
+  left: -76px;
+  top: 30px;
+}
+.container .flex-container .right-content .box img {
+  width: 567px;
+  margin-top: 4px;
+  border-radius: 0px 30px 30px 0px;
+}
+.container .categorie {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+.container .categorie .categories-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .categorie .categories-text h1 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+.container .categorie .categories-text p {
+  background-color: #E7FAFE;
+  width: 200px;
+  height: 60px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.container .categories {
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+}
+.container .categories p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  width: 180px;
+  border-radius: 30px;
+}
+.container .categories #breakfast {
+  background: linear-gradient(180deg, rgba(112, 130, 70, 0) 0%, rgba(112, 130, 70, 0.1) 100%);
+}
+.container .categories #breakfast:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+.container .categories #vegan {
+  background: linear-gradient(180deg, rgba(108, 198, 63, 0) 0%, rgba(108, 198, 63, 0.1) 100%);
+}
+.container .categories #vegan:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+.container .categories #meat {
+  background: linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%);
+}
+.container .categories #meat:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+.container .categories #dessert {
+  background: linear-gradient(180deg, rgba(240, 158, 0, 0) 0%, rgba(240, 158, 0, 0.1) 100%);
+}
+.container .categories #dessert:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+.container .categories #lunch {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+}
+.container .categories #lunch:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+.container .categories #chocolate {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.05) 100%);
+}
+.container .categories #chocolate:hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+.container .food-cards {
+  display: flex;
+  flex-direction: column;
+}
+.container .food-cards h1 {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+.container .food-cards .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 140px;
+  justify-content: space-between;
+}
+.container .food-cards .text h1 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+.container .food-cards .text p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 706px;
+  height: 56px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.container .food-cards .food-card {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+.container .food-cards .food-card p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+}
+.container .food-cards .burger {
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  width: 370px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 0px 0px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container .food-cards .burger:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.container .food-cards .burger img {
+  border-radius: 30px;
+}
+.container .food-cards .burger .burger-logo {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+.container .food-cards .burger .burger-logo p {
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+}
+.container .food-cards .burger .burger-logo img {
+  padding-right: 7px;
+}
+.container .food-cards .fish {
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  width: 370px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 0px 0px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container .food-cards .fish:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.container .food-cards .fish img {
+  border-radius: 30px;
+}
+.container .food-cards .fish .fish-logo {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+.container .food-cards .fish .fish-logo p img {
+  padding-right: 7px;
+}
+.container .food-cards .pancake {
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  width: 370px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 0px 0px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container .food-cards .pancake:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.container .food-cards .pancake img {
+  border-radius: 30px;
+}
+.container .food-cards .pancake .pancake-logo {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+.container .food-cards .pancake .pancake-logo p img {
+  padding-right: 7px;
+}
+.container .food-cards .healthy {
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  width: 370px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 0px 0px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container .food-cards .healthy:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.container .food-cards .healthy img {
+  border-radius: 30px;
+}
+.container .food-cards .healthy .healthy-logo {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+.container .food-cards .healthy .healthy-logo p img {
+  padding-right: 7px;
+}
+.container .food-cards .meat {
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  width: 370px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 0px 0px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container .food-cards .meat:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.container .food-cards .meat img {
+  border-radius: 30px;
+}
+.container .food-cards .meat .meat-logo {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+.container .food-cards .meat .meat-logo p img {
+  padding-right: 7px;
+}
+.container .food-cards .ads img {
+  width: 390px;
+}
+.container .food-cards .sweet {
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  width: 370px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 0px 0px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container .food-cards .sweet:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.container .food-cards .sweet img {
+  border-radius: 30px;
+}
+.container .food-cards .sweet .sweet-logo {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+.container .food-cards .sweet .sweet-logo p img {
+  padding-right: 7px;
+}
+.container .food-cards .snack {
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  width: 370px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 0px 0px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container .food-cards .snack:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.container .food-cards .snack img {
+  border-radius: 30px;
+}
+.container .food-cards .snack .snack-logo {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+.container .food-cards .snack .snack-logo p img {
+  padding-right: 7px;
+}
+.container .food-cards .soup {
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  width: 370px;
+  height: 400px;
+  padding: 20px;
+  border-radius: 0px 0px 40px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.container .food-cards .soup:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.container .food-cards .soup img {
+  border-radius: 30px;
+}
+.container .food-cards .soup .soup-logo {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+}
+.container .food-cards .soup .soup-logo p img {
+  padding-right: 7px;
+}
+.container .kitchen {
+  display: flex;
+}
+.container .kitchen .learn-more {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: stretch;
+  margin-top: 140px;
+}
+.container .kitchen .learn-more h1 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  width: 510px;
+}
+.container .kitchen .learn-more p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+  margin-top: -70px;
+}
+.container .kitchen button {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  background-color: black;
+  border: none;
+  width: 150px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+}
+.container .kitchen a {
+  color: #fff;
+}
+.container .chef img {
+  margin-block: 80px;
+}
+.container .instagram-post {
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+  height: 840px;
+  flex-direction: column;
+  margin-inline: -153px;
+}
+.container .check {
+  display: flex;
+  flex-direction: column;
+  width: 860px;
+  height: 131px;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .check h1 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+  text-align: center;
+}
+.container .check p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+}
+.container .instagram-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 1252px;
+  margin-block: 60px;
+  justify-content: space-evenly;
+}
+.container .instagram-cards .instagram1 {
+  background-color: #fff;
+  border-radius: 10px;
+}
+.container .instagram-cards .instagram-head {
+  display: flex;
+  width: 290px;
+  justify-content: space-between;
+}
+.container .instagram-cards .instagram-head .instagram-profile {
+  display: flex;
+  justify-content: space-between;
+  width: 90px;
+}
+.container .instagram-cards .instagram-head .instagram-profile img {
+  width: 24.75px;
+  height: 24.75px;
+}
+.container .instagram-cards .instagram-head .instagram-profile .instagram1-text h1 {
+  font-family: SF Pro Text;
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 14px;
+  letter-spacing: -0.0773333311px;
+  text-align: left;
+}
+.container .instagram-cards .instagram-head .instagram-profile .instagram1-text h1 img {
+  width: 8.65px;
+  height: 7.58px;
+}
+.container .instagram-cards .instagram-head .instagram-profile .instagram1-text p {
+  font-family: SF Pro Text;
+  font-size: 9px;
+  font-weight: 400;
+  line-height: 10px;
+  letter-spacing: 0.0541333333px;
+  text-align: left;
+}
+.container .instagram-cards .instagram-head .instagram-head-menu img {
+  width: 16.83px;
+  height: 4.32px;
+}
+.container .instagram-cards .instagram-photo {
+  margin-block: 8px;
+}
+.container .instagram-cards .instagramlogo1 {
+  display: flex;
+  width: 290px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-inline: 10px;
+}
+.container .instagram-cards .instagramlogo1 img {
+  width: 27px;
+  height: 7px;
+  margin-right: 50px;
+}
+.container .instagram-cards .instagramlogo1 i {
+  font-size: 20px;
+}
+.container .instagram-cards .instagramlogo1 .instagram-like {
+  display: flex;
+  justify-content: space-between;
+  width: 78px;
+  font-size: 20px;
+}
+.container .instagram-cards .instagram-about {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 290px;
+  margin-block: 15px;
+  padding-inline: 10px;
+}
+.container .instagram-cards .instagram-about .instagram-comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 80px;
+}
+.container .instagram-cards .instagram-about .instagram-comment span {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.container .instagram-cards .instagram-about .instagram-liked {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 290px;
+}
+.container .instagram-cards .instagram-about .instagram-liked img {
+  width: 20px;
+  margin-right: 8px;
+}
+.container .visit button {
+  background-color: black;
+  width: 200px;
+  height: 50px;
+  border-radius: 10px;
+}
+.container .visit button a {
+  color: white;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.container .visit button a i {
+  margin-inline: 8px;
+}
+.container .food-order {
+  display: flex;
+  flex-direction: column;
+  margin-block: 170px;
+}
+.container .food-order .food-order-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .food-order .food-order-text h1 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  width: 507px;
+}
+.container .food-order .food-order-text p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 620px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.container .food-order .food-order-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-block: 50px;
+}
+.container .food-order .food-order-cards .food-order-card {
+  display: flex;
+  flex-direction: column;
+  justify-items: start;
+  width: 290px;
+  margin-block: 8px;
+}
+.container .food-order .food-order-cards .food-order-card img {
+  border-radius: 25px;
+}
+.container .food-order .food-order-cards .food-order-card h1 {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: -0.04em;
+  text-align: left;
+  margin: 10px;
+}
+.container .food-order .food-order-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 190px;
+  align-items: center;
+  margin: 10px;
+}
+.container .food-order .food-order-logo .food-clock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 95px;
+}
+.container .food-order .food-order-logo .food-clock p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+.container .food-order .food-knife {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80px;
+}
+.container .food-order .food-knife p {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+.container .inbox {
+  display: flex;
+  flex-direction: column;
+  background-color: #E7F9FD;
+  border-radius: 40px 40px 0px 20px;
+}
+.container .inbox .input-text {
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+  align-items: center;
+}
+.container .inbox .input-text h1 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  margin-block: 70px;
+}
+.container .inbox .input-text p {
+  -webkit-margin-before: -50px;
+          margin-block-start: -50px;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.6);
+  width: 600px;
+  -webkit-margin-after: 70px;
+          margin-block-end: 70px;
+}
+.container .inbox .input-text .input-search {
+  position: relative;
+}
+.container .inbox .input-text .input-search input {
+  border: none;
+  outline: none;
+  width: 400px;
+  height: 70px;
+  padding-left: 10px;
+  border-radius: 15px;
+}
+.container .inbox .input-text .input-search button {
+  background-color: black;
+  color: white;
+  width: 140px;
+  height: 50px;
+  border-radius: 10px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: -0.02em;
+  position: absolute;
+  top: 10px;
+  left: 250px;
+}
+.container .inbox .input-photo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.container .inbox .input-photo .input-photo-right {
+  display: flex;
+  align-items: flex-start;
+}
+
+footer {
+  -webkit-margin-before: 120px;
+          margin-block-start: 120px;
+  line-height: 60px;
+}
+footer #foot {
+  border: 0.5px solid lightgrey;
+  margin-block: 10px;
+  -webkit-margin-before: 20px;
+          margin-block-start: 20px;
+}
+
+.footer-text {
+  display: flex;
+}
+.footer-text .footer-text-column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 70px;
+  justify-content: space-between;
+}
+.footer-text .footer-text-column h1 {
+  font-family: Lobster;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.footer-text .footer-text-column h1 i {
+  color: #ff7426;
+  font-size: 4px;
+  margin-left: 1px;
+}
+.footer-text .footer-text-column p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+.footer-text .footer-nav-bar {
+  display: flex;
+  align-items: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+.footer-text .footer-nav-bar ul {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.footer-text .footer-nav-bar ul li a {
+  color: black;
+}
+
+.footer-end {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 490px;
+  align-items: center;
+}
+.footer-end p {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.6);
+}
+.footer-end p span {
+  color: #FF7967;
+}
+.footer-end .footer-social {
+  display: flex;
+  justify-content: space-between;
+  width: 100px;
+}
+.footer-end .footer-social a {
+  color: black;
+}
+.footer-end .footer-social a i {
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */
